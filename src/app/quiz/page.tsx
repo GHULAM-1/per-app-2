@@ -9,96 +9,97 @@ import { ArrowLeft, Sparkles, Users, Heart, Brain } from "lucide-react"
 
 const questions = [
   {
-    question: "How do you usually make decisions?",
+    question: "You’re walking by a team placing traffic signs and they seem confused. What’s your instinct?",
     options: {
-      Red: "Quickly and confidently",
-      Yellow: "Based on what feels exciting",
-      Green: "After getting everyone's input",
-      Blue: "After analyzing all details",
+      Yellow: "Crack a joke to ease the mood",
+      Blue: "Observe and think through the problem quietly first",
+      Green: "Ask if they need help",
+      Red: "Jump in and tell them what to do",
     },
   },
   {
-    question: "What role do you naturally take in a group?",
+    question: "You're placed in a team to design an eco-friendly bus stop. No one knows where to begin. What's your role?",
     options: {
-      Red: "Leader or initiator",
-      Yellow: "Motivator and entertainer",
-      Green: "Supporter and listener",
-      Blue: "Planner and researcher",
+      Blue: "Sketch a draft based on existing examples",
+      Green: "Make sure everyone feels included",
+      Red: "Set goals and assign tasks quickly",
+      Yellow: "Spark energy and throw out wild ideas",
     },
   },
   {
-    question: "How do you handle conflict?",
+    question: "The city is building a new playground and asks for your feedback. What’s your approach?",
     options: {
-      Red: "Confront it head-on",
-      Yellow: "Make light of the situation",
-      Green: "Avoid it and keep peace",
-      Blue: "Analyze before responding",
+      Green: "Ask others what they think first",
+      Yellow: "Suggest fun features that kids might enjoy",
+      Blue: "Point out issues in the current design and propose fixes",
+      Red: "Give direct suggestions on improvements",
     },
   },
   {
-    question: "What motivates you the most?",
+    question: "You're part of a mock city planning committee. There's disagreement about road placement. What's your move?",
     options: {
-      Red: "Winning and success",
-      Yellow: "Fun and excitement",
-      Green: "Helping others",
-      Blue: "Accuracy and order",
+      Yellow: "Try to unite the group with humor",
+      Red: "Push your idea forward confidently",
+      Green: "Encourage everyone to find middle ground",
+      Blue: "List all pros and cons before deciding",
     },
   },
   {
-    question: "What's your biggest strength?",
+    question: "You're assigned to a team designing a park layout. No one is sure how to begin. What do you do?",
     options: {
-      Red: "Taking initiative",
-      Yellow: "Creative thinking",
-      Green: "Being supportive",
-      Blue: "Being precise",
+      Blue: "Ask for all requirements and study similar layouts first",
+      Yellow: "Get everyone talking to brainstorm ideas",
+      Green: "Wait to see what others are comfortable with",
+      Red: "Take charge and suggest a starting plan",
     },
   },
   {
-    question: "What's your biggest challenge?",
+    question: "You're tasked to explain a model of a flood-control system to peers. How do you handle it?",
     options: {
-      Red: "Impatience",
-      Yellow: "Lack of focus",
-      Green: "Avoiding change",
-      Blue: "Overthinking",
+      Yellow: "Tell a story to make it interesting",
+      Red: "Give a brief overview and highlight the outcome",
+      Green: "Check if your audience is comfortable with your pace",
+      Blue: "Explain it step-by-step with precise details",
     },
   },
   {
-    question: "What kind of work environment do you prefer?",
+    question: "During a group visit to a construction site, your guide is unclear. What do you do?",
     options: {
-      Red: "Fast-paced and competitive",
-      Yellow: "Lively and collaborative",
-      Green: "Stable and friendly",
-      Blue: "Structured and quiet",
+      Green: "Stay close to the group and observe quietly",
+      Blue: "Take mental notes and clarify details later",
+      Yellow: "Make the experience fun for others",
+      Red: "Ask direct questions and lead the group forward",
     },
   },
   {
-    question: "How do you prepare for a task?",
+    question: "A construction model has errors, and the team is under pressure. How do you react?",
     options: {
-      Red: "Jump right in",
-      Yellow: "Talk through ideas with others",
-      Green: "Ask for feedback first",
-      Blue: "Plan every detail",
+      Red: "Step in and start fixing things immediately",
+      Green: "Offer help quietly and try not to upset anyone",
+      Blue: "Examine the model carefully before taking action",
+      Yellow: "Keep the mood light to reduce tension",
     },
   },
   {
-    question: "What do others often appreciate about you?",
+    question: "You see a blueprint of a housing project but it looks incomplete. What's your response?",
     options: {
-      Red: "Your leadership",
-      Yellow: "Your positivity",
-      Green: "Your reliability",
-      Blue: "Your precision",
+      Red: "Call it out and ask for action",
+      Blue: "Compare it with proper templates and identify what’s missing",
+      Yellow: "Start imagining creative ways to finish it",
+      Green: "Wait to hear others’ opinions before saying anything",
     },
   },
   {
-    question: "What do you value most?",
+    question: "You're asked to help plan a pedestrian bridge route, but you're unfamiliar with the process. What do you do?",
     options: {
-      Red: "Results and achievement",
-      Yellow: "Joy and inspiration",
-      Green: "Harmony and relationships",
-      Blue: "Truth and logic",
+      Green: "Let others take the lead and support them",
+      Yellow: "Throw out creative ideas to get the discussion going",
+      Blue: "Do background research before offering any input",
+      Red: "Suggest a simple path and get feedback later",
     },
   },
-]
+];
+
 
 const colorConfig = {
   Red: {
